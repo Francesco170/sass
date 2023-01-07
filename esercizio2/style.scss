@@ -1,0 +1,49 @@
+.exercise {
+     border: 1px solid red;
+     font-size: 1rem;
+
+.exercise-title {
+    display:flex;
+    justify-content: center;
+    color: green;
+    text-decoration: underline blue;
+    
+}
+ section{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+}
+p{
+ padding: 50px;
+}
+
+@mixin article ($color,$border-color,$font-size){
+    border:2px $border-color;
+    font-size: $font-size;
+    color: $color;
+    
+ }
+
+ .P1{
+   @include article( blue, solid green, 20px);
+ }
+
+ .P2{
+    @include article( red,solid green, 20px);
+   }
+   .P3{
+      @include article( blue,solid green, 20px);
+   }
+   .P4{
+      @include article(red,solid green, 20px);
+      
+   }
+   .footer {
+     @include article( green,solid blue, 24px);
+   }
+   .footer-article{
+    width: 100%;
+   text-align: center;
+   }

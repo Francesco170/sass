@@ -1,0 +1,56 @@
+.exercise {
+  border: 1px solid red;
+  font-size: 1rem;
+}
+.exercise .exercise-title {
+  display: flex;
+  justify-content: center;
+  color: green;
+  text-decoration: underline blue;
+}
+.exercise section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+p {
+  padding: 50px;
+}
+
+.P1 {
+  border: 2px solid green;
+  font-size: 20px;
+  color: blue;
+}
+
+.P2 {
+  border: 2px solid green;
+  font-size: 20px;
+  color: red;
+}
+
+.P3 {
+  border: 2px solid green;
+  font-size: 20px;
+  color: blue;
+}
+
+.P4 {
+  border: 2px solid green;
+  font-size: 20px;
+  color: red;
+}
+
+.footer {
+  border: 2px solid blue;
+  font-size: 24px;
+  color: green;
+}
+
+.footer-article {
+  width: 100%;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
