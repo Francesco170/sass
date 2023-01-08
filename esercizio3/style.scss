@@ -1,0 +1,51 @@
+@use "module.scss";
+@use "function-module.scss" ;
+.exercise {
+    border: function-module.rem(1px) solid red;
+    font-size: 1rem;
+
+.exercise-title {
+   display:flex;
+   justify-content: center;
+   color: green;
+   text-decoration: underline blue;
+   
+}
+section{
+   display:flex;
+   justify-content: space-between;
+   padding: function-module.rem(10px);
+}
+}
+p{
+padding: function-module.rem(50px);
+}
+
+@mixin article ($color,$border-color,$font-size){
+   border: $border-color;
+   font-size: $font-size;
+   color: $color;
+   
+}
+
+.P1{
+  @include article(module.$blue-color, module.$green-border-color, module.$P-font-size);
+}
+
+.P2{
+   @include article( module.$red-color,module.$green-border-color, module.$P-font-size);
+  }
+  .P3{
+     @include article( module.$blue-color,module.$green-border-color, module.$P-font-size);
+  }
+  .P4{
+     @include article(module.$red-color,module.$green-border-color, module.$P-font-size);
+     
+  }
+  .footer {
+    @include article( module.$green-color,module.$footer-border-color, module.$footer-font-size);
+  }
+  .footer-article{
+   width: 100%;
+  text-align: center;
+  }

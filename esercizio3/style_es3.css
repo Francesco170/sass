@@ -1,0 +1,56 @@
+.exercise {
+  border: 0.0625rem solid red;
+  font-size: 1rem;
+}
+.exercise .exercise-title {
+  display: flex;
+  justify-content: center;
+  color: green;
+  text-decoration: underline blue;
+}
+.exercise section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.625rem;
+}
+
+p {
+  padding: 3.125rem;
+}
+
+.P1 {
+  border: 0.125rem solid green;
+  font-size: 1.25rem;
+  color: blue;
+}
+
+.P2 {
+  border: 0.125rem solid green;
+  font-size: 1.25rem;
+  color: red;
+}
+
+.P3 {
+  border: 0.125rem solid green;
+  font-size: 1.25rem;
+  color: blue;
+}
+
+.P4 {
+  border: 0.125rem solid green;
+  font-size: 1.25rem;
+  color: red;
+}
+
+.footer {
+  border: 0.125rem solid blue;
+  font-size: 1.5rem;
+  color: green;
+}
+
+.footer-article {
+  width: 100%;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style_es3.css.map */

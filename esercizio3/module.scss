@@ -1,0 +1,9 @@
+@use "function-module.scss";
+
+$blue-color: blue;
+$red-color:red;
+$green-color:green;
+$P-font-size: function-module.rem(20px);
+$footer-font-size:function-module.rem(24px);
+$green-border-color:function-module.rem(2px) solid green;
+$footer-border-color:function-module.rem(2px) solid blue;
