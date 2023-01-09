@@ -1,0 +1,60 @@
+.exercise {
+  border: 0.0625rem solid red;
+  font-size: 1rem;
+}
+.exercise h1, .exercise h2 {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  color: green;
+  text-decoration: underline blue;
+}
+.exercise h2 {
+  border: 2px solid red;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.625rem;
+}
+
+p {
+  padding: 3.125rem;
+}
+
+.P1 {
+  border: 0.125rem solid green;
+  font-size: 1.25rem;
+  color: blue;
+}
+
+.P2 {
+  border: 0.125rem solid green;
+  font-size: 1.25rem;
+  color: red;
+}
+
+.P3 {
+  border: 0.125rem solid green;
+  font-size: 1.25rem;
+  color: blue;
+}
+
+.P4 {
+  border: 0.125rem solid green;
+  font-size: 1.25rem;
+  color: red;
+}
+
+.footer {
+  border: 0.125rem solid blue;
+  font-size: 1.5rem;
+  color: green;
+  width: 100%;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style_es5.css.map */
